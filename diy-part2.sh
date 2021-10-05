@@ -25,5 +25,3 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # 修改默认wifi名称ssid为Xiaomi_R4A
 sed -i 's/ssid=OpenWrt/ssid=Xiaomi_R4A/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-#edit the zonename
-sed -i 's/Shanghai/Hong Kong/g' package/lean/default-settings/files/zzz-default-settings
